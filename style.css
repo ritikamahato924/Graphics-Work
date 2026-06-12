@@ -212,12 +212,13 @@ nav a:hover {
   }
 
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     justify-items: center;
   }
 
   .card {
-    width: min(100%, 400px);
+    width: 90vw !important;
+    max-width: 400px;
   }
 
   #closeBtn {
