@@ -148,3 +148,81 @@ nav a:hover {
   color: white;
   cursor: pointer;
 }
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  nav {
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .work,
+  .about,
+  .contact {
+    padding: 60px 20px;
+  }
+
+  .grid {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  nav ul li {
+    margin-left: 0;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .work,
+  .about,
+  .contact {
+    padding: 50px 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card {
+    width: min(100%, 400px);
+  }
+
+  #closeBtn {
+    top: 10px;
+    right: 20px;
+    font-size: 32px;
+  }
+}
