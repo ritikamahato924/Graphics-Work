@@ -57,6 +57,12 @@ nav a:hover {
   padding: 80px 50px;
 }
 
+.work h2 {
+  text-align: center;
+  margin: 20px;
+  padding-right: 25px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 290px));
